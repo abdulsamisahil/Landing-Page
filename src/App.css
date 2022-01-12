@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url('../public/img/background.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner__content {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner__text {
+  width: 500px;
+  padding: 10px; 
+}
+
+.banner__text h3 {
+  font-size: 50px;
+}
+
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900px;
+  margin-top: 20px;
+}
+
+.banner__text p {
+  font-size: 25px;
+  font-weight: 400px;
+  margin-top: 20px;
+}
+
+.logo .dinner {
+  font-size: 16px;
+  color: rgb(255, 69, 79);
+  font-weight: 1000;
+}
+
+.logo h3{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 900px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 220px;
+}
+
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__ul li a {
+  text-decoration: none;
+  color: rgb(116, 109, 109);
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner__btn {
+  margin-top: 35px;
+}
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.deliver-now {
+  background: rgb(255, 69, 79);
 }
