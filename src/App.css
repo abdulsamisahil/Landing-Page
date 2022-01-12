@@ -124,6 +124,10 @@ body {
   width: 50%;
 }
 
+.col-3 {
+  width: 25%;
+}
+
 .about h3 {
   color: rgba(37, 37, 37, 0.7);
   font-size: 30px;
@@ -180,6 +184,34 @@ body {
 }
 
 .shop__text h1 h3 {
-  background-color: red; 
+  background-color: red;
+  border-radius: 10px;
 }
 
+.menu {
+  margin-top: 30px;
+}
+
+.reviews {
+  width: 100%;
+  padding: 80px  0;
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.review {
+  text-align: center;
+}
+
+.review h1 {
+  font-size: 45px;
+}
+
+.review p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
