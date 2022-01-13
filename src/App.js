@@ -4,7 +4,7 @@ import About from './components/About';
 import Shop from './components/Shop'; 
 import Menu from './components/Menu';
 import Review from './components/Review';
-import Prices from './Prices';
+import Prices from './components/Prices';
 function App() {
   return (
     <div className="App">
