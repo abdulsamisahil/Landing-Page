@@ -5,7 +5,8 @@ import Shop from './components/Shop';
 import Menu from './components/Menu';
 import Review from './components/Review';
 import Prices from './components/Prices';
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       <Header/>

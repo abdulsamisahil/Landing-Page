@@ -5,8 +5,8 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className="navbar__text">
                 <div className="logo">
-                    <h3 className='dinner'>DINNER</h3>
-                    <h3>WITH SAHIL</h3>
+                    <h3 className='dinner'>SAHIL</h3>
+                    <h3>RESTAURANT</h3>
                 </div>
                 <ul className='navbar__ul'>
                     <li><a href="/">Home</a></li>
